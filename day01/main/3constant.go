@@ -12,6 +12,10 @@ func main() {
 
 	const n = 5000000000
 
+	const dd = int64(3e20 / 50000000)
+
+	fmt.Println(dd)
+
 	const d = 3e20 / n
 	fmt.Println(d)
 
